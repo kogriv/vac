@@ -9,7 +9,7 @@ import os
 from dbpro import *
 
 load_dotenv()
-hh_api_token = os.getenv('HH_ACCESS_TOKEN')
+hh_api_token = os.getenv('HH_APP_ACCESS_TOKEN')
 
 vacancies = [
         'BI Developer', 'Business Development Manager', 'Community Manager', 'Computer vision',

@@ -104,7 +104,7 @@ def get_industry(company_id):
     return 'Unknown'
 
 # Функция для парсинга вакансий
-def parse_vacancies(vacancies=vacancies, cities=cities):
+def parse_vacancies(vacancies, cities):
     
 
 
